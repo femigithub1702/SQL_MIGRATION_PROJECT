@@ -569,14 +569,6 @@
 					"referenceName": "LS_SQL_SOURCE1",
 					"type": "LinkedServiceReference"
 				},
-				"parameters": {
-					"TableName": {
-						"type": "string"
-					},
-					"SchemaName": {
-						"type": "string"
-					}
-				},
 				"annotations": [],
 				"type": "SqlServerTable",
 				"schema": [
