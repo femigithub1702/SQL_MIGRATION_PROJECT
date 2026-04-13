@@ -1,0 +1,111 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsqlmigration01"
+		},
+		"LS_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS1_accountKey": {
+			"value": ""
+		},
+		"LS_OnPrem_SQLServer_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS1_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_SOURCE_password": {
+			"value": ""
+		},
+		"LS_SQL_SOURCE1_password": {
+			"value": ""
+		},
+		"LS_SQL_Source_password": {
+			"value": ""
+		},
+		"LS_WATERMARK_MAXVALUE_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsmigration01.dfs.core.windows.net/"
+		},
+		"LS_ADLS1_properties_typeProperties_url": {
+			"value": "https://adlsmigration01.dfs.core.windows.net/"
+		},
+		"LS_OnPrem_SQLServer_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_OnPrem_SQLServer_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_OnPrem_SQLServer_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLS1_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_SQL_ADLS1_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_SQL_ADLS1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsmigration01.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_SOURCE_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_SQL_SERVER_SOURCE_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_SQL_SERVER_SOURCE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_SOURCE1_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_SQL_SOURCE1_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_SQL_SOURCE1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_Source_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_SQL_Source_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_SQL_Source_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_WATERMARK_MAXVALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_WATERMARK_MAXVALUE_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_WATERMARK_MAXVALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		}
+	}
+}
