@@ -1,0 +1,9 @@
+{
+	"name": "adfsqlmigration01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8ca5b74f-4c7a-4c57-87ed-d8c52d57bfc8",
+		"tenantId": "637eae57-0227-4cd7-9c03-50c18a775bf2"
+	}
+}
