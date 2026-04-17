@@ -1,6 +1,9 @@
 {
 	"name": "selfhostedintegrationruntime5",
 	"properties": {
-		"type": "SelfHosted"
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": false
+		}
 	}
 }
