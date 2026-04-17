@@ -569,6 +569,14 @@
 					"referenceName": "LS_SQL_SOURCE1",
 					"type": "LinkedServiceReference"
 				},
+				"parameters": {
+					"SchemaName": {
+						"type": "string"
+					},
+					"TableName": {
+						"type": "string"
+					}
+				},
 				"annotations": [],
 				"type": "SqlServerTable",
 				"schema": [
@@ -944,7 +952,9 @@
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"type": "SelfHosted",
-				"typeProperties": {}
+				"typeProperties": {
+					"selfContainedInteractiveAuthoringEnabled": false
+				}
 			},
 			"dependsOn": []
 		}
